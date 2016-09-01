@@ -1,0 +1,39 @@
+#faq ul {
+    list-style-type: none;
+  }
+
+  #faq li {
+      border: 1px solid Lavender ;
+      border-radius: 5px;
+      margin: 15px;
+      padding: 10px;
+      background-color: #CCCCCC;
+      font-weight: 800;
+      font-variant: small-caps;
+    }
+
+  #faq {
+    background-color: #F2F2F2;
+    font-size: 16px;
+  }
+
+  #faq h1 {
+    color:  black;
+    text-align: center;
+    padding-bottom: 30px;
+    padding-top: 30px;
+    font-weight: 100;
+    margin: 0px;
+
+  }
+  #faq .container-fluide {
+      border-bottom: 10px solid FireBrick;
+      border-top: 10px solid FireBrick ;  
+  }
+
+  .answers {
+    margin: 15px 10px 15px 0px;
+    font-variant: small-caps;
+    text-align: center;
+    font-size: 18px;
+  }

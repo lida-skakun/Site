@@ -1,0 +1,38 @@
+footer {
+	padding: 10px;	
+	background-color: #262626;
+	color: #FBFBFB;
+	z-index: 1;
+	font-size: 11px;
+	font-family: Verdana, Geneva, Arial, sans-serif;
+	font-weight: 100;
+	text-align: center;
+	margin: 0px;
+	clear: left;
+}
+
+#contacts {
+	background-color: #404040;
+}
+
+iframe {
+	padding: 20px 20px 20px 20px;
+	margin: 0px;
+	float: left;
+}
+
+#contacts h1 {
+	color: #F2F2F2;
+	text-align: center;
+	padding: 30px 30px;
+	border-bottom: 1px solid grey;	
+	font-weight: 100;
+	font-style: italic;
+	font-family: serif;
+	font-stretch: ultra-expanded;
+}
+#contacts p {
+	color: #F2F2F2;
+	padding: 20px;
+	text-align: left;
+}
