@@ -17,8 +17,11 @@ footer {
 
 iframe {
 	padding: 20px 20px 20px 20px;
-	margin: 0px;
+	margin-right: 5%;
 	float: left;
+	border: none;
+	width: 65%;
+
 }
 
 #contacts h1 {
@@ -31,8 +34,18 @@ iframe {
 	font-family: serif;
 	font-stretch: ultra-expanded;
 }
-#contacts p {
+#address {
 	color: #F2F2F2;
-	padding: 20px;
+	font-style: italic;
+	font-family: serif;
+	margin-left: 5%;
+}
+
+#address h2 {
+	text-align: center;
+}
+
+#address p {
+	font-size: 18px;
 	text-align: left;
 }

@@ -46,13 +46,13 @@ a:visited {
 	color: #F2F2F2;
 }
 
-/*#feedback {
-	text-align: right;
-position: absolute;
-margin-left: 535%;
-margin-top: -80%;
+#feedback {
+	position: absolute;
+	z-index: 15;
+	right: 5%;
+	bottom: 5%;
 }
-*/
+
 body {
 	margin: 0px;
   	padding: 0px;
