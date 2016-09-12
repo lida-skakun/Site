@@ -36,3 +36,11 @@ $('.carousel').carousel({
     interval: 2000 
 });
 
+// Feedback
+send.onclick = function feedback_ready() {
+	var name = document.getElementById("inputName.value");
+	var email = document.getElementById("inputEmail.value");
+	var phone = document.getElementById("inputPhone.value");
+	var form_to_send = [name, email, phone];
+	alert(form_to_send);
+}
