@@ -31,7 +31,7 @@ export default class Home extends React.Component {
                     <div id="header-img" className="col-xs-12 col-sm-12 col-md-12 col-lg-12">
                         <div className="header-img">
                             <img className="img-responsive" src="Hojmft2FmnM.jpg" alt="header-img" />
-                            <button type="button" className="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal"> <img id="feedback" src="social_balloon-37.png"/> </button>
+                            <input type="image"  data-toggle="modal" data-target="#myModal" src="social_balloon-37.png" id="feedback"/> 
                             <div className="modal fade" id="myModal" tabIndex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
                                 <div className="modal-dialog">
                                     <div className="modal-content">
@@ -40,7 +40,7 @@ export default class Home extends React.Component {
                                             <h4 className="modal-title" id="myModalLabel">Feedback</h4>
                                         </div>
                                         <div className="modal-body">
-                                            <form className="form-horizontal" role="form">
+                                            <form action="action_page.php" className="form-horizontal" role="form">
                                                 <div className="form-group">
                                                     <label htmlFor="inputName" className="col-sm-2 control-label">Name</label>
                                                     <div className="col-sm-10">
@@ -63,7 +63,7 @@ export default class Home extends React.Component {
                                         </div>
                                         <div className="modal-footer">
                                             <button type="button" className="btn btn-default" data-dismiss="modal">Cencel</button>
-                                            <button type="button" className="btn btn-primary" id="send">Send</button>
+                                            <button type="submit" className="btn btn-default" id="send">Send</button>
                                         </div>
                                     </div>
                                 </div>
