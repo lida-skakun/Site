@@ -5,7 +5,7 @@ module.exports = {
     entry: [
         './js/index.jsx'
     ],
-        module: {
+    module: {
         loaders: [
             {
                 test: /\.css$/,
@@ -14,7 +14,12 @@ module.exports = {
             {
                 test: /\.jsx?$/,
                 exclude: /node_modules/,
-                loaders: [ "babel" ]
+                loaders: [ "babel" ],
+            },
+            {
+                test: /\.(jpg|png)$/,
+  loader: 'url?limit=25000',
+ 
             }
         ]
     },
