@@ -5,8 +5,12 @@ module.exports = {
     entry: [
         './js/index.jsx'
     ],
-    module: {
+        module: {
         loaders: [
+            {
+                test: /\.css$/,
+                loaders: ['style', 'css'],
+            },
             {
                 test: /\.jsx?$/,
                 exclude: /node_modules/,

@@ -1,5 +1,6 @@
 import React from 'react';
 import {render} from 'react-dom';
+import styles from '../../Style/home.css';
 
 export default class Home extends React.Component {
     render () {

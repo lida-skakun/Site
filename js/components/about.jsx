@@ -1,5 +1,7 @@
 import React from 'react';
 import {render} from 'react-dom';
+import styles from '../../Style/about.css';
+
 
 export default class About extends React.Component {
     render () {

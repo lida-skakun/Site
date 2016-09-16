@@ -1,5 +1,6 @@
 import React from 'react';
 import {render} from 'react-dom';
+import styles from '../../Style/faq.css';
 
 export default class Faq extends React.Component {
     render () {

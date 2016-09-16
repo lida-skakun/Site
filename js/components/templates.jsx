@@ -1,5 +1,6 @@
 import React from 'react';
 import {render} from 'react-dom';
+import styles from '../../Style/templates.css';
 
 export default class Templates extends React.Component {
     render () {
