@@ -13,18 +13,280 @@
     <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
 		<!-- jQuery -->
 	<script src="https://code.jquery.com/jquery-3.1.0.js"   integrity="sha256-slogkvB1K3VOkzAI8QITxV3VzpOnkeNVsKvtkYLMjfk="   crossorigin="anonymous"></script>
-		<!-- ReactJS -->
-	<script src="https://npmcdn.com/react@15.3.1/dist/react.js"></script>
-    <script src="https://npmcdn.com/react-dom@15.3.1/dist/react-dom.js"></script>
-    <script src="https://npmcdn.com/babel-core@5.8.38/browser.min.js"></script>
-
+	<link rel="stylesheet" type="text/css" href="main.css">
 	
 </head>
-
 <body>
-
-	<div id="app"></div>
-	<script src="bundle.js"></script>
+	<div id="home">
+            <div id="header">
+                <p> Web design and development | <img src="mobilephoneoff.png"/>   Contact us: +38 093 914 26 46
+                    <img title="Eng" src="united-kingdom-flag_9923.png" height="16" id="UK"/>
+                </p>
+            </div>
+            <div class="container-fluide">
+                <div class="row">
+                    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                        <nav id="navigation">
+                            <ul>
+                                <li><a href="index.html#home" title="Home">  HOME </a></li>
+                                <li><a href="index.html#about" title="About"> ABOUT </a></li>
+                                <li><a href="index.html#faq" title="FAQ"> FAQ </a></li>
+                                <li><a href="index.html#templates" title="Templates"> TEMPLATES</a></li>
+                                <li><a href="index.html#contacts" title="Contacts" > CONTACTS  </a></li>
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+            <div class="container-fluide">
+                <div class="row">
+                    <div id="header-img" class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                        <div class="header-img">
+                            <img class="img-responsive" src="Hojmft2FmnM.jpg" alt="header-img" id="header-img"/>
+                            <input type="image"  data-toggle="modal" data-target="#myModal" src="social_balloon-37.png" id="feedback"/>
+                            {}
+                            <div class="modal fade" id="myModal" tabIndex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+                                <div class="modal-dialog">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Cencel</span></button>
+                                            <h4 class="modal-title" id="myModalLabel">Feedback</h4>
+                                        </div>
+                                        <div class="modal-body">
+                                            <form action="action_page.php" class="form-horizontal" role="form">
+                                                <div class="form-group">
+                                                    <label html="inputName" class="col-sm-2 control-label">Name</label>
+                                                    <div class="col-sm-10">
+                                                        <input type="text" class="form-control" id="inputName" placeholder="Name"/>
+                                                    </div>
+                                                </div>
+                                                <div class="form-group">
+                                                    <label html="inputEmail" class="col-sm-2 control-label">Email</label>
+                                                    <div class="col-sm-10">
+                                                        <input type="email" class="form-control" id="inputEmail" placeholder="Email"/>
+                                                    </div>
+                                                </div>
+                                                <div class="form-group">
+                                                    <label html="inputPhone" class="col-sm-2 control-label">Phone</label>
+                                                    <div class="col-sm-10">
+                                                        <input type="phone" class="form-control" id="inputPhone" placeholder="Phone"/>
+                                                    </div>
+                                                </div>
+                                            </form>
+                                        </div>
+                                        <div class="modal-footer">
+                                            <button type="button" class="btn btn-default" data-dismiss="modal">Cencel</button>
+                                            <button type="submit" class="btn btn-default" id="send">Send</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <a href="index.html#home" title="Up">  <img id="arrow" src="icons/137.png"/>  </a>
+    </div> 
+   <div id="about">
+        <h1> Information about our company </h1>
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
+                    <div id="about_row">
+                        <img src="icons/people_8694.png"/>
+                            <h2>Who we are?</h2>
+                            <p>Founded in 2015, we are a small web design & development agency based in Kyiv, Ukraine. Over the last year we've made a reputation for building websites that look great and are easy-to-use. </p>
+                            <p> If you like what we do, and think we could work together, then get in touch or launch our project planner.</p>
+                    </div>
+                </div>
+                <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
+                    <div id="about_row">
+                        <img src="icons/preferences-calendar-and-tasks_4520.png"/>
+                            <h2> We offer solutions</h2>
+                            <p>   For those who have ideas: we can be a collaborative partner. For those who can’t afford downtime: our support team will keep you up and running. For those looking to connect to the cloud: we can link you. We help you create, build, start up and maintain. </p>
+                    </div>
+                </div>
+                <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
+                    <div id="about_row">
+                        <img src="icons/imgonline-com-ua-resize-DQ2B0NETs4.jpg"/>
+                            <h2>Business Analysis & Consulting</h2>
+                            We provide a detailed analysis to inform digital growth for your business.
+                                <ul>
+                                    <li>We set up startups for success</li>
+                                    <li>Develop a business plan and pitch deck to gain investor support</li>
+                                    <li>Ongoing consultation to optimize your business</li>
+                                </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
+                    <div id="about_row">
+                        <img src="icons/user_info_5274.png"/>
+                            <h2>Information Architecture & User Experience</h2>
+                            Every website starts with a wireframe. Our UX experts provide detailed blueprints for high-performance websites.
+                                <ul>
+                                    <li>We plan websites with relevant content for your audience</li>
+                                    <li>User-pathways improve website conversions</li>
+                                    <li>Improve usability with an intuitive layout</li>
+                                </ul>
+                    </div>
+                </div>
+                <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
+                    <div id="about_row">
+                        <img src="icons/network2_3989.png"/>
+                            <h2>Content Strategy & Copywriting</h2>
+                            <br/>
+                                Unify your brand messaging and engage your audience across all media with content strategy and copywriting.
+                                    <ul>
+                                        <li>We create content that converts</li>
+                                        <li>Start your communication strategy with a strong foundation</li>
+                                        <li>We write compelling copy that leads to website performance</li>
+                                    </ul>
+                    </div>
+                </div>
+                <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
+                    <div id="about_row">
+                        <img src="icons/imgonline-com-ua-resize-FlGDhvYW6R.jpg"/>
+                            <h2>Design</h2>
+                            <br/>
+                                <p>We don't provide multiple concepts from the outset as we believe it dilutes ideas - we prefer to focus on what we feel is the right approach.</p>
+                                <p>We try to make sure everything we design will scale down well to smaller screens like your tablet and phone. We’ll make a plan about how your design responds to different screen sizes.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="faq">
+        <h1>Frequently asked questions</h1>
+        <div class="container-fluide">
+            <div class="row">
+                <div class="col-xs-12 col-sm-5 col-md-5 col-lg-5">
+                    <ul>
+                        <li id="first_li">What do your websites cost?</li>
+                        <li id="second_li">Will I have a say in the graphic design process?</li>
+                        <li id="third_li">Do you provide copywriting services? How about photography?</li>
+                        <li id="fourth_li">Do you provide web hosting services?</li>
+                        <li id="fifth_li">Why should we hire your company?</li>
+                        <li id="sixth_li">Another company says they can build a web site for us for $500. Why shouldn’t we use them?</li>
+                    </ul>
+                </div>
+                <div class="col-xs-12 col-sm-7 col-md-7 col-lg-7">
+                    <div class="answers">
+                        <div id="answer1" class="hidden">
+                            The short answer: Our prices depend on so many factors, it’s impossible to say in one sentence. Avoid any web developer who can answer this question without a long talk. <br/>
+                            The long answer: To get a better idea of the cost of what you want to build, give us a quick phone call. We’ll ask you a few questions about the nature of the site, what sort of interactivity the site will have, your graphic design needs, etc. Then we’ll be able to give you a ballpark figure. If you’re still interested, we’ll come to your place of business and come up with a firm quote. <br/> If you talk to a web developer who gives you an instant quote, run away! Imagine telling someone you want a car and having them immediately giving you a price for that car. Any fair and honest car salesperson would want to know the make, model and engine type of the car you’re looking to purchase, right? The same goes for building web sites. Depending on the features you want for your web site, the cost can be anywhere from a few thousand dollars to a few million.
+                        </div>
+                        <div id="answer2" class="hidden">
+                            Absolutely. Our goal is to please you. We can’t do that without your input. If there are other sites with a design style that you would like to emulate, we can do that. If you have a logo or brand collateral that you’d like us to work around, that’s no problem. We’ll be sure your new site will be a consistent and integral part of your overall brand.
+                        </div>
+                        <div id="answer3" class="hidden">
+                            Not directly, but if your project calls for copywriting, photography, original illustration, video or other creative service, just let us know. We have an extensive network of creative associates that we work with. We would be happy to make a recommendation.
+                        </div>
+                        <div id="answer4" class="hidden">
+                            No. Most real web hosting companies have massive data centers that have hundreds of employees, triple power redundancy (in case of a blackout in the region) and 24-hour security staff guarding the facility.<br/>
+                            When a local web developer claims that they also host web sites, they’re almost ertainly just a middleman for a real web host. That means that they mark up the cost of hosting and pass it along to you. And it means that if your server ever has a problem, you’ll have to go to them and they’ll contact your host for you. Are they on call 24-7? Of course not. Another major disadvantage to using a web developer as a host — if you’re ever dissatisfied with their service, they control the server that hosts your site. Extracting your company from the relationship could be very difficult.<br/>
+                            We listen to your needs and suggest the most affordable web hosting option that meets the technical specifications of your new site. You’ll pay the host directly and you may contact them directly if you ever need to do so.
+                        </div>
+                        <div id="answer5" class="hidden">
+                            Some firms love to build complicated sites. Not us. We choose the simplest tool that will effectively accomplish a task. Simple sites load faster, are easy to use and are less prone to problems.
+                            <br/> Most of our clients have fun working with us. We make the web design process easy and pleasant. We speak in plain English, not techno-babble. And we love what we do for a living.
+                                <br/> Our business has grown word-of-mouth and we intend to continue growing this way. We'll treat you fairly and do a great job so that you'll want to continue working with us after your site has launched. And, we want you to tell all your friends and colleagues about us.
+                        </div>
+                        <div id="answer6" class="hidden">
+                            We’ve seen those ads on the side of the road, too. Be wary of anyone who says they’ll build you a web site or sell you a car for $500. There’s a possibility they’ll take your money and run. What’s more likely is that they’ll take your money and then build your site with a template. They may have a lot of templates to choose from, but they’ll all be rather generic. They’ll ask you for five pages of text and then slap it into a template and that’s it. You can’t have custom graphic design; you can’t have any interactivity; your site won’t be optimized for search engines and it will look like a $500 site. <br/>
+                            Remember, a consultation with us is always free and we just might be able to prevent you from wasting a thousand bucks.
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+	<div id="templates">
+	    <h1>Website Templates</h1>
+	    <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+	         <ol class="carousel-indicators">
+	            <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+	            <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+	            <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+	            <li data-target="#carousel-example-generic" data-slide-to="3"></li>
+	            <li data-target="#carousel-example-generic" data-slide-to="4"></li>
+	            <li data-target="#carousel-example-generic" data-slide-to="5"></li>
+	            <li data-target="#carousel-example-generic" data-slide-to="6"></li>
+	            <li data-target="#carousel-example-generic" data-slide-to="7"></li>
+	            <li data-target="#carousel-example-generic" data-slide-to="8"></li>
+	            <li data-target="#carousel-example-generic" data-slide-to="9"></li>
+	            <li data-target="#carousel-example-generic" data-slide-to="10"></li>
+	            <li data-target="#carousel-example-generic" data-slide-to="11"></li>
+	            <li data-target="#carousel-example-generic" data-slide-to="11"></li>
+	        </ol>
+	        <div class="carousel-inner" role="listbox">
+	            <div class="item active">
+	                <img src="template/one.png" class="img-responsive" alt="template #1"/>
+	            </div>
+	            <div class="item">
+	                <img src="template/two.png" class="img-responsive" alt="template #2"/>
+	            </div>
+	            <div class="item">
+	                <img src="template/three.png" class="img-responsive" alt="template #3"/>
+	            </div>
+	            <div class="item">
+	                <img src="template/four.png" class="img-responsive"  alt="template #4"/>
+	            </div>
+	            <div class="item">
+	                <img src="template/five.png" class="img-responsive"  alt="template #5"/>
+	            </div>
+	            <div class="item">
+	                <img src="template/six.png" class="img-responsive"  alt="template #6"/>
+	            </div>
+	            <div class="item">
+	                <img src="template/seven.png" class="img-responsive"  alt="template #7"/>
+	            </div>
+	            <div class="item">
+	                <img src="template/eight.png" class="img-responsive"  alt="template #8"/>
+	            </div>
+	            <div class="item">
+	                <img src="template/nine.png" class="img-responsive"  alt="template #9"/>
+	            </div>
+	            <div class="item">
+	                <img src="template/ten.png" class="img-responsive"  alt="template #10"/>
+	            </div>
+	            <div class="item">
+	                <img src="template/Big/eleven.png" class="img-responsive"  alt="template #11"/>
+	            </div>
+	            <div class="item">
+	                <img src="template/twelve.png" class="img-responsive"  alt="template #12"/>
+	            </div>
+	            <div class="item">
+	                <img src="template/thriteen.png" class="img-responsive"  alt="template #13"/>
+	            </div>
+	        </div>
+	        <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+	            <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"> </span>
+	            <span class="sr-only">Previous</span>
+	        </a>
+	        <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+	            <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"> </span>
+	            <span class="sr-only">Next</span>
+	        </a>
+	    </div>
+    </div>
+    <div id="contacts">
+        <h1>How you can find us</h1>
+        <iframe src="https://www.google.com/maps/d/u/1/embed?mid=1FGgduyteUSDMjox1YljQvNnAhPk"></iframe>
+        <div id="address">
+            <h2> Our location</h2>
+            <p>Kiev, Ukraine <br/>
+                Eastern Europe <br/>
+                cell: +38 (093) 914 - 26 - 46 <br/>
+                e-mail: kunska@gmail.com</p>
+        </div>
+        <footer>
+            Made in Ukraine <br/>
+            kunska@gmail.com <br/>
+            2016
+        </footer>
+	</div>
 	<script src="Bootstrap/bootstrap-3.3.7-dist/js/bootstrap.min.js"></script>
 	<script type="text/javascript" src="index.js" ></script>
 
