@@ -1,0 +1,12 @@
+#templates h1 {
+	color:  #0066FF;
+	text-align: center;
+	padding-bottom: 30px;
+	border-bottom: 1px solid grey;	
+	font-weight: 100;
+}
+
+.carousel-inner img {
+  margin: auto;
+}
+
